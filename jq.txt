@@ -1,0 +1,15 @@
+jq . siem_logs_20250611_121610.json
+
+jq '.[] | select(.level == "ERROR")' siem_logs_20250611_121610.json
+
+jq '.[] | {timestamp, message}' siem_logs_20250611_121610.json
+
+jq length siem_logs_20250611_121610.json
+
+jq '.[].user' siem_logs_20250611_121610.json | sort | uniq
+
+jq -r '.[] | "\(.timestamp) [\(.level)] - \(.message) by \(.user)"' siem_logs_20250611_121610.json
+
+jq . ~/Desktop/siem_logs_20250611_121610.json
+
+

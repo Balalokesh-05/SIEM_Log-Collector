@@ -1,0 +1,3474 @@
+[
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:39:18.197895Z",
+        "message": "<30>Jun 11 17:09:18 kali systemd[1]: Stopping rsyslog.service - System Logging Service...",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:39:18.197989Z",
+        "message": "<46>Jun 11 17:09:18 kali rsyslogd: [origin software=\"rsyslogd\" swVersion=\"8.2504.0\" x-pid=\"690\" x-info=\"https://www.rsyslog.com\"] exiting on signal 15.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:39:18.198037Z",
+        "message": "<30>Jun 11 17:09:18 kali systemd[1]: rsyslog.service: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:39:18.198076Z",
+        "message": "<30>Jun 11 17:09:18 kali systemd[1]: Stopped rsyslog.service - System Logging Service.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:39:18.198113Z",
+        "message": "<30>Jun 11 17:09:18 kali systemd[1]: Starting rsyslog.service - System Logging Service...",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:39:18.198153Z",
+        "message": "<43>Jun 11 17:09:18 kali rsyslogd: could not load module 'omfwd', errors: trying to load module /usr/lib/aarch64-linux-gnu/rsyslog/omfwd.so: /usr/lib/aarch64-linux-gnu/rsyslog/omfwd.so: cannot open shared object file: No such file or directory [v8.2504.0 try https://www.rsyslog.com/e/2066 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:39:18.198189Z",
+        "message": "<46>Jun 11 17:09:18 kali rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2504.0]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:39:18.198226Z",
+        "message": "<30>Jun 11 17:09:18 kali systemd[1]: Started rsyslog.service - System Logging Service.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:39:18.198261Z",
+        "message": "<46>Jun 11 17:09:18 kali rsyslogd: [origin software=\"rsyslogd\" swVersion=\"8.2504.0\" x-pid=\"2391\" x-info=\"https://www.rsyslog.com\"] start",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:39:18.198296Z",
+        "message": "<86>Jun 11 17:09:18 kali sudo: pam_unix(sudo:session): session closed for user root",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:40:01.916512Z",
+        "message": "<85>Jun 11 17:10:02 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/su",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:40:01.916619Z",
+        "message": "<86>Jun 11 17:10:02 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kali(uid=1000)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:40:01.922366Z",
+        "message": "<37>Jun 11 17:10:02 kali su[2756]: (to root) root on pts/1",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:40:01.923075Z",
+        "message": "<86>Jun 11 17:10:02 kali su[2756]: pam_unix(su:session): session opened for user root(uid=0) by kali(uid=0)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:40:14.714243Z",
+        "message": "<86>Jun 11 17:10:14 kali su[2756]: pam_unix(su:session): session closed for user root",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61157,
+        "received_at": "2025-06-11T11:40:14.715384Z",
+        "message": "<86>Jun 11 17:10:14 kali sudo: pam_unix(sudo:session): session closed for user root",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.032030Z",
+        "message": "<30>Jun 11 17:11:48 kali dbus-daemon[686]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.64' (uid=1000 pid=3665 comm=\"/usr/lib/firefox-esr/firefox-esr\")",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.032132Z",
+        "message": "<30>Jun 11 17:11:48 kali systemd[1]: Starting systemd-timedated.service - Time & Date Service...",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.074623Z",
+        "message": "<30>Jun 11 17:11:48 kali systemd[1]: Started systemd-timedated.service - Time & Date Service.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.074863Z",
+        "message": "<30>Jun 11 17:11:48 kali dbus-daemon[686]: [system] Successfully activated service 'org.freedesktop.timedate1'",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.475676Z",
+        "message": "<31>Jun 11 17:11:48 kali rtkit-daemon[1169]: Supervising 6 threads of 3 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.475974Z",
+        "message": "<31>Jun 11 17:11:48 kali rtkit-daemon[1169]: Supervising 6 threads of 3 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.506089Z",
+        "message": "<31>Jun 11 17:11:48 kali rtkit-daemon[1169]: Supervising 6 threads of 3 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.506195Z",
+        "message": "<31>Jun 11 17:11:48 kali rtkit-daemon[1169]: Supervising 6 threads of 3 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.510110Z",
+        "message": "<30>Jun 11 17:11:48 kali rtkit-daemon[1169]: Successfully made thread 3787 of process 3665 owned by '1000' RT at priority 10.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.510172Z",
+        "message": "<31>Jun 11 17:11:48 kali rtkit-daemon[1169]: Supervising 7 threads of 4 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.805171Z",
+        "message": "<31>Jun 11 17:11:48 kali rtkit-daemon[1169]: Supervising 7 threads of 4 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.805263Z",
+        "message": "<31>Jun 11 17:11:48 kali rtkit-daemon[1169]: Supervising 7 threads of 4 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.970860Z",
+        "message": "<31>Jun 11 17:11:49 kali rtkit-daemon[1169]: Supervising 7 threads of 4 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:48.971166Z",
+        "message": "<31>Jun 11 17:11:49 kali rtkit-daemon[1169]: Supervising 7 threads of 4 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:49.537355Z",
+        "message": "<31>Jun 11 17:11:49 kali rtkit-daemon[1169]: Supervising 7 threads of 4 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:49.537469Z",
+        "message": "<31>Jun 11 17:11:49 kali rtkit-daemon[1169]: Supervising 7 threads of 4 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:49.621365Z",
+        "message": "<31>Jun 11 17:11:49 kali rtkit-daemon[1169]: Supervising 7 threads of 4 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:49.622216Z",
+        "message": "<31>Jun 11 17:11:49 kali rtkit-daemon[1169]: Supervising 7 threads of 4 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:49.641009Z",
+        "message": "<31>Jun 11 17:11:49 kali rtkit-daemon[1169]: Supervising 7 threads of 4 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:41:49.641159Z",
+        "message": "<31>Jun 11 17:11:49 kali rtkit-daemon[1169]: Supervising 7 threads of 4 processes of 2 users.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 58654,
+        "received_at": "2025-06-11T11:42:18.314461Z",
+        "message": "<30>Jun 11 17:12:18 kali systemd[1]: systemd-timedated.service: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 50561,
+        "received_at": "2025-06-11T11:45:01.191548Z",
+        "message": "<86>Jun 11 17:15:01 kali CRON[5564]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 50561,
+        "received_at": "2025-06-11T11:45:01.191629Z",
+        "message": "<78>Jun 11 17:15:01 kali CRON[5567]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 50561,
+        "received_at": "2025-06-11T11:45:01.191665Z",
+        "message": "<86>Jun 11 17:15:01 kali CRON[5564]: pam_unix(cron:session): session closed for user root",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61497,
+        "received_at": "2025-06-11T11:47:01.218252Z",
+        "message": "<86>Jun 11 17:17:01 kali CRON[6601]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61497,
+        "received_at": "2025-06-11T11:47:01.218352Z",
+        "message": "<78>Jun 11 17:17:01 kali CRON[6603]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 61497,
+        "received_at": "2025-06-11T11:47:01.218386Z",
+        "message": "<86>Jun 11 17:17:01 kali CRON[6601]: pam_unix(cron:session): session closed for user root",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62082,
+        "received_at": "2025-06-11T11:53:00.157882Z",
+        "message": "<30>Jun 11 17:23:00 kali systemd[1]: Starting logrotate.service - Rotate log files...",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62082,
+        "received_at": "2025-06-11T11:53:00.250826Z",
+        "message": "<30>Jun 11 17:23:00 kali systemd[1]: logrotate.service: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62082,
+        "received_at": "2025-06-11T11:53:00.250939Z",
+        "message": "<30>Jun 11 17:23:00 kali systemd[1]: Finished logrotate.service - Rotate log files.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62082,
+        "received_at": "2025-06-11T11:53:05.915885Z",
+        "message": "<30>Jun 11 17:23:06 kali NetworkManager[827]: <info>  [1749642786.0409] dhcp4 (eth0): state changed new lease, address=192.168.155.144",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62082,
+        "received_at": "2025-06-11T11:53:05.920995Z",
+        "message": "<30>Jun 11 17:23:06 kali dbus-daemon[686]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=827 comm=\"/usr/sbin/NetworkManager --no-daemon\")",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62082,
+        "received_at": "2025-06-11T11:53:05.921451Z",
+        "message": "<30>Jun 11 17:23:06 kali systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62082,
+        "received_at": "2025-06-11T11:53:05.929827Z",
+        "message": "<30>Jun 11 17:23:06 kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62082,
+        "received_at": "2025-06-11T11:53:05.962198Z",
+        "message": "<29>Jun 11 17:23:06 kali systemd-tmpfiles[9576]: /usr/lib/tmpfiles.d/legacy.conf:14: Duplicate line for path \"/run/lock\", ignoring.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62082,
+        "received_at": "2025-06-11T11:53:05.963491Z",
+        "message": "<30>Jun 11 17:23:06 kali dbus-daemon[686]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62082,
+        "received_at": "2025-06-11T11:53:05.963555Z",
+        "message": "<30>Jun 11 17:23:06 kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62082,
+        "received_at": "2025-06-11T11:53:05.982662Z",
+        "message": "<30>Jun 11 17:23:06 kali systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62082,
+        "received_at": "2025-06-11T11:53:05.982748Z",
+        "message": "<30>Jun 11 17:23:06 kali systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62082,
+        "received_at": "2025-06-11T11:53:15.980584Z",
+        "message": "<30>Jun 11 17:23:16 kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 49303,
+        "received_at": "2025-06-11T11:55:01.262438Z",
+        "message": "<86>Jun 11 17:25:01 kali CRON[10523]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 49303,
+        "received_at": "2025-06-11T11:55:01.262591Z",
+        "message": "<78>Jun 11 17:25:01 kali CRON[10525]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 49303,
+        "received_at": "2025-06-11T11:55:01.262623Z",
+        "message": "<86>Jun 11 17:25:01 kali CRON[10523]: pam_unix(cron:session): session closed for user root",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 49303,
+        "received_at": "2025-06-11T11:55:01.262647Z",
+        "message": "<30>Jun 11 17:25:01 kali systemd[1]: Starting apt-daily-upgrade.service - Daily apt upgrade and clean activities...",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 49303,
+        "received_at": "2025-06-11T11:55:01.826552Z",
+        "message": "<30>Jun 11 17:25:01 kali systemd[1]: apt-daily-upgrade.service: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 49303,
+        "received_at": "2025-06-11T11:55:01.826607Z",
+        "message": "<30>Jun 11 17:25:01 kali systemd[1]: Finished apt-daily-upgrade.service - Daily apt upgrade and clean activities.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62706,
+        "received_at": "2025-06-11T11:59:19.003074Z",
+        "message": "<30>Jun 11 17:29:19 kali dbus-daemon[1277]: [session uid=1000 pid=1277 pidfd=5] Activating via systemd: service name='org.xfce.Xfconf' unit='xfconfd.service' requested by ':1.73' (uid=1000 pid=12680 comm=\"/usr/libexec/xfce4-screensaver-dialog --monitor=0\")",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62706,
+        "received_at": "2025-06-11T11:59:19.003127Z",
+        "message": "<30>Jun 11 17:29:19 kali systemd[1246]: Starting xfconfd.service - Xfce configuration service...",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62706,
+        "received_at": "2025-06-11T11:59:19.028298Z",
+        "message": "<30>Jun 11 17:29:19 kali dbus-daemon[1277]: [session uid=1000 pid=1277 pidfd=5] Successfully activated service 'org.xfce.Xfconf'",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62706,
+        "received_at": "2025-06-11T11:59:19.028540Z",
+        "message": "<30>Jun 11 17:29:19 kali systemd[1246]: Started xfconfd.service - Xfce configuration service.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62706,
+        "received_at": "2025-06-11T11:59:23.959387Z",
+        "message": "<86>Jun 11 17:29:24 kali xfce4-screensaver-dialog: gkr-pam: unlocked login keyring",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 62706,
+        "received_at": "2025-06-11T11:59:23.959998Z",
+        "message": "<87>Jun 11 17:29:24 kali xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:account): setuid failed: Operation not permitted",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982012Z",
+        "message": "<30>Jun 11 17:34:17 kali NetworkManager[827]: <info>  [1749643457.8051] manager: NetworkManager state is now DISCONNECTED",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982117Z",
+        "message": "<30>Jun 11 17:34:17 kali dbus-daemon[686]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=827 comm=\"/usr/sbin/NetworkManager --no-daemon\")",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982156Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982193Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982243Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982276Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982306Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982335Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982364Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982394Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982423Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982452Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982482Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982515Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982592Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982621Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982653Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982688Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982736Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982763Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982790Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982817Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982846Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982874Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982903Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982932Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982962Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.982989Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983018Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983045Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983073Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983100Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983128Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983156Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983183Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983211Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983240Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983269Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983296Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983325Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983354Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983383Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983412Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983439Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983465Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983493Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983520Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983713Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983807Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983849Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983881Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983913Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983943Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.983972Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984000Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984027Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984056Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984085Z",
+        "message": "<43>Jun 11 17:34:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984115Z",
+        "message": "<46>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984143Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984173Z",
+        "message": "<44>Jun 11 17:34:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984205Z",
+        "message": "<30>Jun 11 17:34:17 kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984234Z",
+        "message": "<30>Jun 11 17:34:17 kali dbus-daemon[686]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984263Z",
+        "message": "<30>Jun 11 17:34:17 kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984294Z",
+        "message": "<30>Jun 11 17:34:27 kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984321Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984351Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984384Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984415Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984444Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984473Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984503Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984545Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984576Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984603Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984630Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984689Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984724Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984753Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984785Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984830Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984861Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984888Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984921Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984954Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.984987Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985024Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985088Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985142Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985169Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985203Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985254Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985300Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985330Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985386Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985425Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985459Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985503Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985532Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985578Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985620Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985649Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985679Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985710Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985736Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985767Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985795Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985824Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985853Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985881Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985907Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985935Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985962Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.985990Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986031Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986058Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986084Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986110Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986137Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986163Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986189Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986216Z",
+        "message": "<43>Jun 11 17:34:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986245Z",
+        "message": "<46>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986273Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986300Z",
+        "message": "<44>Jun 11 17:34:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986327Z",
+        "message": "<86>Jun 11 17:35:01 kali CRON[15606]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986356Z",
+        "message": "<78>Jun 11 17:35:01 kali CRON[15608]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986385Z",
+        "message": "<86>Jun 11 17:35:01 kali CRON[15606]: pam_unix(cron:session): session closed for user root",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986415Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986444Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986473Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986503Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986533Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986560Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986599Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986628Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986657Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986686Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986765Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986799Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986828Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986856Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986894Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986922Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986949Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.986974Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987001Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987028Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987057Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987082Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987108Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987134Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987161Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987186Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987234Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987260Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987286Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987312Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987338Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987363Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987388Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987414Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987440Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987466Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987491Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987518Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987543Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987568Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987594Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987620Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987645Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987670Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987696Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987721Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987747Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987796Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987824Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987849Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987874Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987901Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987928Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987953Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.987980Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988005Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988031Z",
+        "message": "<43>Jun 11 17:35:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988056Z",
+        "message": "<46>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988082Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988107Z",
+        "message": "<44>Jun 11 17:35:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988133Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988158Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988184Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988209Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988234Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988259Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988284Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988309Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988334Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988359Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988384Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988410Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988435Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988460Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988486Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988511Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988536Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988562Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988587Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988613Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988639Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988665Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988687Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988709Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988731Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988753Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988775Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988796Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988837Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988861Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988883Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988918Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988941Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988964Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.988999Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989025Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989047Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989068Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989089Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989110Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989132Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989153Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989173Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989196Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989218Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989240Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989261Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989283Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989305Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989328Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989351Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989390Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989413Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989435Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989457Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989479Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989502Z",
+        "message": "<43>Jun 11 17:35:47 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989522Z",
+        "message": "<46>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989543Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989564Z",
+        "message": "<44>Jun 11 17:35:47 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989585Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989606Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989626Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989648Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989670Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989691Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989712Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989734Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989754Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989775Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989797Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989818Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989839Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989860Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989881Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989903Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989924Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989946Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989968Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.989989Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990010Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990031Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990052Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990073Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990094Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990116Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990140Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990162Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990204Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990230Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990252Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990273Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990294Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990318Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990339Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990362Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990382Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990404Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990426Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990448Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990471Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990492Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990514Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990597Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990660Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990692Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990738Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990765Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990789Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990812Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990835Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990857Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990892Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990914Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990936Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990958Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd/udp: socket 7: sendto() error: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.990980Z",
+        "message": "<43>Jun 11 17:36:17 kali rsyslogd: omfwd: socket 7: error 101 sending via udp: Network is unreachable [v8.2504.0 try https://www.rsyslog.com/e/2354 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991002Z",
+        "message": "<46>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0] found no working target server when trying to send messages (main loop) [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991023Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: omfwd: [wrkr 0/281473061859424] no working target servers in pool available, suspending action [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991046Z",
+        "message": "<44>Jun 11 17:36:17 kali rsyslogd: action 'action-0-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2504.0 try https://www.rsyslog.com/e/2007 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991067Z",
+        "message": "<6>Jun 11 17:36:31 kali kernel: e1000e 0000:02:00.0 eth0: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991089Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.0373] device (eth0): carrier: link connected",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991111Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.0380] device (eth0): state change: unavailable -> disconnected (reason 'carrier-changed', managed-type: 'full')",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991242Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.0403] policy: auto-activating connection 'Wired connection 1' (ba65f5e3-80ec-4409-9ae6-4821fa41065a)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991341Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.0416] device (eth0): Activation: starting connection 'Wired connection 1' (ba65f5e3-80ec-4409-9ae6-4821fa41065a)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991378Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.0417] device (eth0): state change: disconnected -> prepare (reason 'none', managed-type: 'full')",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991420Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.0420] manager: NetworkManager state is now CONNECTING",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991448Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.0423] device (eth0): state change: prepare -> config (reason 'none', managed-type: 'full')",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991472Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.0438] device (eth0): state change: config -> ip-config (reason 'none', managed-type: 'full')",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991496Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.0457] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991517Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.0503] dhcp4 (eth0): state changed new lease, address=192.168.155.144, acd pending",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991539Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.2275] dhcp4 (eth0): state changed new lease, address=192.168.155.144",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991561Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.2281] policy: set 'Wired connection 1' (eth0) as default for IPv4 routing and DNS",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991585Z",
+        "message": "<30>Jun 11 17:36:31 kali dbus-daemon[686]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=827 comm=\"/usr/sbin/NetworkManager --no-daemon\")",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991607Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.2365] device (eth0): state change: ip-config -> ip-check (reason 'none', managed-type: 'full')",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991629Z",
+        "message": "<30>Jun 11 17:36:31 kali systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991650Z",
+        "message": "<30>Jun 11 17:36:31 kali dbus-daemon[686]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991671Z",
+        "message": "<30>Jun 11 17:36:31 kali systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991693Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.2894] device (eth0): state change: ip-check -> secondaries (reason 'none', managed-type: 'full')",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991714Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.2896] device (eth0): state change: secondaries -> activated (reason 'none', managed-type: 'full')",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991734Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.2899] manager: NetworkManager state is now CONNECTED_SITE",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991755Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.2901] device (eth0): Activation: successful, device activated.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991776Z",
+        "message": "<30>Jun 11 17:36:31 kali NetworkManager[827]: <info>  [1749643591.2907] manager: NetworkManager state is now CONNECTED_GLOBAL",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991808Z",
+        "message": "<30>Jun 11 17:36:41 kali systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:47.991832Z",
+        "message": "<46>Jun 11 17:36:47 kali rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2504.0 try https://www.rsyslog.com/e/2359 ]",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.349756Z",
+        "message": "<37>Jun 11 17:36:56 kali systemd-logind[691]: The system will power off now!",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.351403Z",
+        "message": "<37>Jun 11 17:36:56 kali systemd-logind[691]: System is powering down.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.367211Z",
+        "message": "<38>Jun 11 17:36:56 kali ssh-agent[1390]: exiting on signal 15",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379064Z",
+        "message": "<85>Jun 11 17:36:56 kali polkitd[689]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.48, object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_IN) (disconnected from bus)",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379145Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopping session-2.scope - Session 2 of User kali...",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379171Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Removed slice system-modprobe.slice - Slice /system/modprobe.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379202Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped target graphical.target - Graphical Interface.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379224Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped target multi-user.target - Multi-User System.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379254Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped target getty.target - Login Prompts.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379277Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped target network-online.target - Network is Online.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379312Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped target rpc_pipefs.target.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379369Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped target sound.target - Sound Card.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379423Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped target ssh-access.target - SSH Access Available.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379447Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped target stunnel.target - TLS tunnels for network services - per-config-file target.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379469Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped target timers.target - Timer Units.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379511Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: apt-daily-upgrade.timer: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379581Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped apt-daily-upgrade.timer - Daily apt upgrade and clean activities.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379622Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: apt-daily.timer: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379646Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped apt-daily.timer - Daily apt download activities.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379668Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: dpkg-db-backup.timer: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379690Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped dpkg-db-backup.timer - Daily dpkg database backup timer.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379736Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: e2scrub_all.timer: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379758Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379781Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: fstrim.timer: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379802Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped fstrim.timer - Discard unused filesystem blocks once a week.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379829Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: logrotate.timer: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379851Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped logrotate.timer - Daily rotation of log files.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379871Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: man-db.timer: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379892Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped man-db.timer - Daily man-db regeneration.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379912Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: phpsessionclean.timer: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379933Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped phpsessionclean.timer - Clean PHP session files every 30 mins.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379954Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: plocate-updatedb.timer: Deactivated successfully.",
+        "is_alert": false,
+        "alert_type": null
+    },
+    {
+        "source_ip": "192.168.0.119",
+        "source_port": 55424,
+        "received_at": "2025-06-11T12:06:56.379993Z",
+        "message": "<30>Jun 11 17:36:56 kali systemd[1]: Stopped plocate-updatedb.timer - Update the plocate database daily.",
+        "is_alert": false,
+        "alert_type": null
+    }
+]
